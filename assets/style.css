@@ -79,10 +79,11 @@ a{color:inherit}
   margin:6px 0 10px;
   font-size:clamp(32px,6.5vw,58px);
   font-weight:900;
-  line-height:1.25;
-  background:linear-gradient(90deg,#fff,#9ec3ff 55%,#7ee7f7);
+  line-height:1.35;
+  background:linear-gradient(180deg,#ffffff 0%,#cfe1ff 60%,#7ee7f7 100%);
   -webkit-background-clip:text;background-clip:text;color:transparent;
-  min-height:1.2em;
+  min-height:1.3em;
+  overflow:visible;
 }
 .name .skeleton-text{
   display:inline-block;width:220px;height:.9em;border-radius:8px;
