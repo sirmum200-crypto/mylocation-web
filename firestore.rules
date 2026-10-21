@@ -9,6 +9,12 @@ service cloud.firestore {
       allow write: if true;
     }
 
+    // السيرة الذاتية: قراءة للجميع، والكتابة مفتوحة لتحديثها
+    match /cv/{cvId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
     // أي شيء آخر ممنوع
     match /{document=**} {
       allow read, write: if false;
